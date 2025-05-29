@@ -38,7 +38,7 @@ public class AntrianLinkedList {
             return;
         }
         nodeKendaraan current = head;
-        int no 
+        int no = 1;
         System.out.println("Daftar Kendaraan dalam Antrian:");
         while (current != null) {
             System.out.println(no++ + ". " + current.data.platNomor + 
