@@ -30,7 +30,7 @@ public class SPBU_Main {
                     antrianKendaraan.tambahAntrian(tambahAntrian);
                     break;
                 case 2:
-                    System.out.println("Berikut adalah daftar kendaraan dalam antrian:");
+                    System.out.println(" ======= Antrian Kendaraan =======");
                     antrianKendaraan.tampilkanAntrian();
                     break;
                 case 3:

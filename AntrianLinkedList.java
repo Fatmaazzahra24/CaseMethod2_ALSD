@@ -28,7 +28,6 @@ public class AntrianLinkedList {
         if (head == null) {
             tail = null; // Jika antrian menjadi kosong
         }
-        System.out.println("Kendaraan " + data.platNomor + " telah dilayani.");
         return data;
     }
 
@@ -41,11 +40,12 @@ public class AntrianLinkedList {
         int no = 1;
         System.out.println("Daftar Kendaraan dalam Antrian:");
         while (current != null) {
-            System.out.println(no++ + ". " + current.data.platNomor + 
-                           " (Jenis: " + current.data.tipe + 
-                           ") - " + current.data.merk);
-            current = current.next;
-        }
+        System.out.println("Plat Nomor: " + current.data.platNomor);
+        System.out.println("Tipe: " + current.data.tipe);
+        System.out.println("Merk: " + current.data.merk);
+        System.out.println(); 
+        current = current.next;
+    }
     }
     public int jumlahAntrian() {
         return size;
